@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+            list-style: none;
+            box-sizing: border-box;
+        }
+        nav{
+            background: skyblue;
+            margin-top: 10px;
+            height: 40px;
+            width: 100%; 
+        }
+        img{
+            margin-top: 3px;
+            margin-left: 30px;
+        }        
+        nav ul{
+            float:right;
+            margin-right:70px;
+        }
+        nav ul li{
+            display: inline-block;
+            line-height: 38px;
+            margin: 0 5px;
+        }
+        nav ul li a{
+            font-size: 20px;
+            color:white;
+            text-transform: capitalize;
+            padding: 4px 1px;
+            border-radius: 3px;
+        }
+        a.active,a:hover{
+            background-color:lightblue;
+            transition: .5s;
+        }
+        input[type=text] {
+  width: 200px;
+  height: 30px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+}
+
+input[type=text]:focus {
+  width: 100%;
+}
+    </style>
+</head>
+<body>
+    <nav>
+        <label ><img src="images/Create_a_Logo_Online___Free_Logo_Maker___Generator___TURBOLOGO_-_Google_Chrome_13-03-2024_00_53_19-transformed.png" height="35"></label>
+        <ul>    
+        <li><input type="text" name="search" placeholder="Search.."></li>    
+        <li><a  class="active" href="Coding_Brain.html">Home</a></li>
+        <li><a  href="aboutus.html">About Us</a></li>
+        <li><a  href="cousrses.html">View Course</a></li>
+        <li><a  href="contact.html">Contact Us</a></li>
+        <li id="login"><a  href="registerForm.html"><button type="submit">Login</button></a></li>
+        <li id="login"><a  href=""> <button type="submit">Signup</button></a></li>
+        </ul>
+    </nav>
+</body>
+</html>
